@@ -17,6 +17,6 @@ elseif PlaceId == 286090429 then
 
 else
 	game.Players.LocalPlayer:kick("Game not supported! Discord: https://discord.gg/jgeVyDF3Xz")
-	wait(1)
+	wait(25)
 	game:Shutdown()
 end
