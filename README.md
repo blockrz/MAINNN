@@ -14,9 +14,11 @@ elseif PlaceId == 5201688943 then
 	loadstring(game:HttpGet("https://gist.githubusercontent.com/blockrz/3e05ee79e2c9b89fa99b879cd38c08e2/raw/0abaace309bdace861f4b51a554ce1494b3673b4/HOODAIMCONNECTOR"))()
 elseif PlaceId == 286090429 then
 	loadstring(game:HttpGet("https://gist.githubusercontent.com/blockrz/ffdcb6aa6f536663fafbd3a73d3d8c39/raw/c343cfe58c193cf16f8923781a69550ff875e7be/ARSENALCONNECTOR"))()
+elseif PlaceId == 142823291 then
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/blockrz/01b799b8bcb6bf4fdf57f728e3e54a74/raw/0b2a3e13c4f31cfd769eeae079f4acc076e28188/MM2"))()
 
 else
 	game.Players.LocalPlayer:kick("Game not supported! Discord: https://discord.gg/jgeVyDF3Xz")
-	wait(25)
+	wait(20)
 	game:Shutdown()
 end
